@@ -1,0 +1,67 @@
+<html>
+<head>
+  <title>  Đặt Vé Máy Bay</title>
+  <style>
+    .indent{
+      padding-left: 100px;
+    }
+    input{
+      margin-left: 100px;
+    }
+    
+  </style>
+  
+  
+  
+  <link rel="stylesheet" href="nav.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="header">
+    <!--  -->
+    <a href="#" class="logo">FREE FIRE</a>
+    <label for="check" class="icon">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    <nav class="navbar">
+        <a href="web.html">Trang chủ</a>
+        <a href="gioithieu.html">Về chúng tôi</a>
+        <a href="loaive.html">Đặt vé</a>
+        
+       
+    </nav>
+</header>
+
+  <h1 class="indent">Đặt Vé Máy Bay</h1>
+  <form action="thankyou.html">
+    <label class="indent" for="fullname">Họ và Tên:</label><br>
+    <input  type="text" id="fullname" name="fullname"><br><br>
+    <label class="indent" for="flight">Chọn Chuyến Bay:</label>
+    <select  id="flight" name="flight">
+        <option value="flight1">Chọn chuyến bay</option>
+      <option value="flight2">Chuyến bay 9h</option>
+      <option value="flight3">Chuyến bay 11h </option>
+      <option value="flight4">Chuyến bay 4h</option>
+    </select><br><br>
+    <label class="indent" for="from">Điểm xuất phát:</label><br>
+    <input  type="text" id="from" name="from"><br><br>
+    <label  class="indent"for="to">Điểm đến:</label><br>
+    <input   type="text" id="to" name="to"><br><br>
+    <label class="indent" for="depart-date">Ngày đi:</label><br>
+    <input type="date" id="depart-date" name="depart-date"><br><br>
+    <label  class="indent" for="return-date">Ngày về (nếu có):</label><br>
+    <input  type="date" id="return-date" name="return-date"><br><br>
+    <label class="indent" for="passengers">Số lượng hành khách:</label><br>
+    <input  type="number" id="passengers" name="passengers"><br><br>
+    <input  type="submit" value="Đặt Vé">
+  </form>
+
+</body>
+</html>
